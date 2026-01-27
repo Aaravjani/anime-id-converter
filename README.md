@@ -30,7 +30,7 @@ It focuses on one job only: mapping IDs quickly and reliably.
 ---
 
 ## 🚀 Live Demo
-👉 [Try the Demo Here](https://www.nontongo.win/anime/converter.html)  
+👉 [Try the Demo Here](https://ancokplayer.win/api/converter)  
 Enter a MAL or AniList ID, select the type, and see the JSON response instantly.
 
 ---
@@ -39,7 +39,7 @@ Enter a MAL or AniList ID, select the type, and see the JSON response instantly.
 
 ### Request
 ```
-/converter?id=59062&type=MAL_ID
+/convert?id=59062&type=MAL_ID
 ```
 
 ### Response
@@ -57,7 +57,7 @@ Enter a MAL or AniList ID, select the type, and see the JSON response instantly.
 
 ### Direct AniList ID
 ```
-/converter?id=161645&type=ANI_ID
+/convert?id=161645&type=ANI_ID
 ```
 
 Response:
@@ -76,7 +76,7 @@ Response:
 ## 🐘 PHP Client Example
 ```php
 <?php
-$apiUrl = "https://nontongo.win/converter?id=59062&type=MAL_ID";
+$apiUrl = "https://ancokplayer.win/api/convert?id=59062&type=MAL_ID";
 $response = file_get_contents($apiUrl);
 $data = json_decode($response, true);
 print_r($data);
