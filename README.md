@@ -4,8 +4,8 @@
 ![Open Source](https://img.shields.io/badge/Open%20Source-Yes-brightgreen?logo=github)
 ![Demo Online](https://img.shields.io/badge/Demo-Available-blue?logo=google-chrome)
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow)
-![GitHub Repo stars](https://img.shields.io/github/stars/yourusername/ani-id-converter?style=social)
-![GitHub issues](https://img.shields.io/github/issues/yourusername/ani-id-converter)
+![GitHub Repo stars](https://img.shields.io/github/stars/ancoknamhay/ani-id-converter?style=social)
+![GitHub issues](https://img.shields.io/github/issues/ancoknamhay/ani-id-converter)
 
 **Anime ID Converter – A lightweight microservice for mapping MyAnimeList IDs to AniList IDs, fast and cache‑friendly.**
 
