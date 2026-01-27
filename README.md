@@ -23,7 +23,7 @@ It focuses on one job only: mapping IDs quickly and reliably.
 ---
 
 ## 🚀 Live Demo
-👉 [Try the Demo Here]([https://www.nontongo.win/anime/converter.html])  
+👉 [Try the Demo Here](https://www.nontongo.win/anime/converter.html)  
 Enter a MAL or AniList ID, select the type, and see the JSON response instantly.
 
 ---
