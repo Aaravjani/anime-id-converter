@@ -1,6 +1,6 @@
-# Ani ID Converter
+# Anime ID Converter
 
-**Ani ID Converter – A lightweight microservice for mapping MyAnimeList IDs to AniList IDs, fast and cache‑friendly.**
+**Anime ID Converter – A lightweight microservice for mapping MyAnimeList IDs to AniList IDs, fast and cache‑friendly.**
 
 ---
 
@@ -23,7 +23,7 @@ It focuses on one job only: mapping IDs quickly and reliably.
 ---
 
 ## 🚀 Live Demo
-👉 [Try the Demo Here](https://yourdomain.com/demo)  
+👉 [Try the Demo Here]([https://www.nontongo.win/anime/converter.html])  
 Enter a MAL or AniList ID, select the type, and see the JSON response instantly.
 
 ---
@@ -67,7 +67,7 @@ Response:
 ## 🐘 PHP Client Example
 ```php
 <?php
-$apiUrl = "https://yourdomain.com/converter?id=59062&type=MAL_ID";
+$apiUrl = "https://nontongo.win/converter?id=59062&type=MAL_ID";
 $response = file_get_contents($apiUrl);
 $data = json_decode($response, true);
 print_r($data);
@@ -77,7 +77,7 @@ print_r($data);
 ---
 
 ## 📖 Why Keep It Simple?
-Ani ID Converter focuses on **one job only**: mapping IDs.  
+Anime ID Converter focuses on **one job only**: mapping IDs.  
 If developers need more details (titles, descriptions, genres), they can query AniList or Jikan directly.  
 This keeps the converter **lightweight and efficient**, making it ideal as a **microservice** in larger projects.
 
@@ -86,7 +86,7 @@ This keeps the converter **lightweight and efficient**, making it ideal as a **m
 ## 🛠️ Installation
 1. Clone the repo:
    ```bash
-   git clone https://github.com/yourusername/ani-id-converter.git
+   git clone https://github.com/ancoknamhay/anime-id-converter.git
    ```
 2. Configure your server (PHP + JSON cache directory).
 3. Deploy and test using the demo page.
@@ -99,8 +99,6 @@ MIT License – free to use, modify, and share.
 ---
 
 ## 🎯 Conclusion
-Ani ID Converter is a **small but powerful tool** for anime developers.  
+Anime ID Converter is a **small but powerful tool** for anime developers.  
 By bridging MAL and AniList IDs, it saves time, reduces API calls, and provides a clean foundation for building richer anime portals, apps, or integrations.
 ```
-
----
