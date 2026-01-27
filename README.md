@@ -47,6 +47,7 @@ Enter a MAL or AniList ID, select the type, and see the JSON response instantly.
 {
   "mal_id": "59062",
   "ani_id": "178025",
+  "title": "Gachiakuta",
   "status": "success",
   "source": "cache"
 }
@@ -64,6 +65,7 @@ Response:
 {
   "mal_id": null,
   "ani_id": "161645",
+  "title": "Gachiakuta",
   "status": "success",
   "source": "direct"
 }
